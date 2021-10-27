@@ -43,6 +43,10 @@ public class MaquinaExpendedoraSimple {
          precioBillete= precioNuevoDelBillete;
     }
 
+    public void lowPrecioBillete( ){
+        precioBillete -=5;
+    }
+    
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
